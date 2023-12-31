@@ -13,5 +13,4 @@ test('register to app', async ({ page }) => {
     await signUpPage.load(page);
     await signUpPage.signUp(page, user);
     await todoPage.verifyWelcomeMessage(page);
-
 });
