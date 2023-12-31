@@ -12,6 +12,5 @@ export default class UserApi {
                 lastName: user.getLastName(),
             },
         });
-
     }
 }
