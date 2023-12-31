@@ -1,5 +1,4 @@
 import { test } from '@playwright/test';
-import { faker } from '@faker-js/faker';
 import User from '../models/User'
 import SignUpPage from '../pages/SignUpPage';
 import TodoPage from '../pages/TodoPage';
